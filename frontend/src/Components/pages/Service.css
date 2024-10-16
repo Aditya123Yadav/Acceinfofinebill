@@ -1,0 +1,118 @@
+.Nav {
+    color: blue;
+    /* background: linear-gradient(135deg , #000000 ,#3533cd  ); */
+    background: linear-gradient(90deg, #99e0f0, #e0a40d, #c4e40e);
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    gap: 180px;
+}
+
+.Nav h1 {
+    font-size: 40px;
+    font-weight: 900;
+    margin-left: 40px;
+    /* color: white; */
+    color: blue;
+    
+}
+
+.Nav img {
+    height: 160px;
+    width: 170px;
+
+    
+}
+
+.box {
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    gap: 300px;
+    margin-left: 130px;
+    margin-right: 130px;
+    border: 2px solid white;
+
+
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    
+}
+
+.box .box-1 {
+    /* height: 140px;
+    width: 200px; */
+    background: linear-gradient(135deg , #000000 ,#3533cd  );
+    border-radius: 20px;
+    border: 5px solid white;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    margin-bottom: 50px;
+
+}
+
+.box .box-1 button {
+    height: 108px;
+    width: 180px;
+    border-radius: 45px;
+    background: linear-gradient(135deg , #3533cd , #000000  );
+   
+}
+
+.box .box-2 {
+    /* height: 140px;
+    width: 200px; */
+    /* background: linear-gradient(135deg , #000000 ,#3533cd  ); */
+     background: linear-gradient(90deg, #ffe6b3, #ffffff, #b3d9ff);
+    border-radius: 100px;
+    border: 5px solid white;
+    
+
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    margin-bottom: 50px;
+    
+}
+
+
+.box .box-2 button {   
+     height: 108px;
+    width: 190px;
+    border-radius: 45px;
+
+    background: linear-gradient(135deg , #000000 ,#3533cd  );
+}
+
+.Footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    /* background: linear-gradient(135deg , #000000 ,#3533cd  ); */
+    background: linear-gradient(90deg, #ffe6b3, #ffffff, #b3d9ff);
+}
+button{
+    background: linear-gradient(135deg, #000000,#3533cd);
+}
+.Footer img {
+    height: 150px;
+    width: 140px;
+}
+
+.Footer h1 {
+    color: blue;
+}

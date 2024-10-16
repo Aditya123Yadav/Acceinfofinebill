@@ -1,0 +1,90 @@
+* Global Styling for the Body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+/* Navigation Bar Styling */
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #00008B, #000033);
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for elevated look */
+    border-radius: 0 0 20px 20px;
+    text-align: center;
+}
+
+.nav img {
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.nav img:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+
+.nav h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* Button Styling */
+.btn {
+    display: inline-flex;
+    margin: 20px;
+    padding: 20px 89px; /* Reduce padding */
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    background: linear-gradient(135deg, #00008B, #000033);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    white-space: nowrap;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    line-height: 1.2; /* Adjust text alignment */
+}
+
+.btn:hover {
+    background: linear-gradient(135deg,  #00008B, #000033); /* Darker gradient on hover */
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
+}
+
+.btn:active {
+    transform: translateY(0); /* Reset the position on click */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Softer shadow when clicked */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav h1 {
+        font-size: 24px; /* Adjust font size for mobile */
+    }
+
+    .nav img {
+        height: 80px;
+        width: 80px;
+    }
+
+    .btn {
+        width: 80%;
+        padding: 12px 30px;
+        font-size: 14px; /* Smaller button size for mobile */
+    }
+
+    
+}

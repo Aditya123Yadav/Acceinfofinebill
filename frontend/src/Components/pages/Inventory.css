@@ -1,0 +1,40 @@
+.nav {
+    color: blue;
+    background: linear-gradient(135deg , #000000 ,#3533cd  );
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    gap: 180px;
+}
+
+.nav h1 {
+    font-size: 40px;
+    font-weight: 900;
+    margin-left: 40px;
+    color: white;
+    
+}
+
+.nav img {
+    height: 160px;
+    width: 170px;
+
+    
+}
+h2{
+
+color: #000000;
+height: 130px;
+margin-top: 270px;
+margin-left:560px;
+font-size: 30px;
+
+
+
+
+
+}
